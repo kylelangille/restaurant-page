@@ -4,7 +4,7 @@ import "./style.css";
 function component() {
   const element = document.createElement("div");
 
-  element.innerHTML = _.join(["Hello", "world"], " ");
+  element.innerHTML = _.join(["HELLO", "WORLD"], " ");
   element.classList.add("hello");
 
   return element;

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "SaiyanSans";
+  src: url("./Saiyan-Sans.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,4 +13,6 @@
 
 .hello {
   color: red;
+  font-family: "SaiyanSans";
+  font-size: 4rem;
 }
